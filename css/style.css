@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+}
+hr{
+    margin: 50px auto;
+    border: dotted #cfd1d0 6px;
+    border-bottom: none;
+    width: 5%;
+}
+p{
+    color: white;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+.nav-item a:hover{
+    color: aqua;
+}
+a:hover{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.brand{
+    color: white;
+    font-weight: normal;
+}
+.navbar{
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    padding: 5px;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    justify-content: space-between;
+}
+.nav-item a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+}
+.top-containar{
+    align-items: center;
+    height: 92vh;
+    position: relative;
+    justify-content: space-between;
+}
+.brand-name{
+    position: absolute;
+    font-size: 10rem;
+    left: 80px;
+    top: 260px;
+}
+.chiken-img{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+}
+.main-containar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu-item{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+}
+.menu-lable{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+.menu-item img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+   border: 1px solid black;
+}
+.Contact{
+    position: relative;
+    text-align: center;
+}
+.city{
+    margin-top: 40px;
+}
+.add{
+    font-size: 0.70rem;
+    color: black;
+}
+.Contact h2{
+    font-size: 3rem;
+}
+.Contact h5{
+    margin-top: 20px;
+}
+.bottom-containar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+.footer{
+    padding-top: 30px;
+}
